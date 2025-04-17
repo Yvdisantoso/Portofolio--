@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Biologis dengan Tema Alam</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #004d40;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: url('nature-background.jpg') no-repeat center center/cover;
+            padding: 50px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            animation: fadeIn 2s;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #004d40;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yudi Santoso</h1>
+        <p>Sarjana Biologi | Banyumanik, Kota Semarang, Jawa Tengah</p>
+        <p>Email: <a href="mailto:Iduysanto@gmail.com">Iduysanto@gmail.com</a> | Telepon: 085643099878</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Profil</a></li>
+            <li><a href="#education">Pendidikan</a></li>
+            <li><a href="#experience">Pengalaman Kerja</a></li>
+            <li><a href="#skills">Kompetensi & Keahlian</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>Profil Profesional</h2>
+        <p>Sarjana Biologi lulusan Universitas Diponegoro dengan IPK 3,61 dan pengalaman lebih dari 2 tahun sebagai Asisten Laboran. Terbiasa bekerja di lingkungan laboratorium riset dan pengembangan, dengan keahlian dalam melakukan pengujian mikrobiologi, kalibrasi serta pengoperasian alat analitik.</p>
+    </section>
+
+    <section id="education">
+        <h2>Pendidikan</h2>
+        <h3>Universitas Diponegoro</h3>
+        <p><strong>Gelar:</strong> Sarjana Biologi</p>
+        <p><strong>Tahun Lulus:</strong> 2024 | <strong>IPK:</strong> 3,61</p>
+        <p><strong>Mata Kuliah Relevan:</strong> Mikrobiologi, Bioteknologi, Biologi Molekuler, Biokimia, Bioteknologi Senyawa Antimikroba</p>
+    </section>
+
+    <section id="experience">
+        <h2>Pengalaman Kerja</h2>
+        <h3>Asisten Laboran</h3>
+        <p><strong>Periode:</strong> 2021 – 2023 | Lab. Bioteknologi, Fisiologi, dan Ekologi – FSM UNDIP</p>
+        <ul>
+            <li>Menyusun dan menjalankan prosedur analisa mikrobiologi.</li>
+            <li>Melakukan validasi dan pengujian berulang.</li>
+            <li>Mengoperasikan alat laboratorium seperti spektrofotometer dan PCR.</li>
+            <li>Menyiapkan media kultur dan mendokumentasikan eksperimen.</li>
+            <li>Melaksanakan quality control dan membantu pelatihan teknis.</li>
+        </ul>
+
+        <h3>Teknisi Kandang</h3>
+        <p><strong>Periode:</strong> 2019 – 2020 | Close House Teaching Farm – FPP UNDIP</p>
+        <ul>
+            <li>Menyusun laporan harian berdasarkan data lingkungan dan kesehatan ternak.</li>
+            <li>Bertanggung jawab dalam pengoperasian sistem otomatisasi.</li>
+            <li>Bekerja dengan target harian dan koordinasi antar tim teknis.</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Kompetensi & Keahlian</h2>
+        <ul>
+            <li>Pengembangan & validasi metode analisa laboratorium</li>
+            <li>Kalibrasi dan pemeliharaan alat laboratorium</li>
+            <li>Penyusunan dokumen SOP, spesifikasi, dan laporan teknis</li>
+            <li>Software: Rstudio, SPSS, Microsoft Office</li>
+            <li>Kemampuan bekerja dengan target dan deadline ketat</li>
+            <li>Komunikatif dan mampu bekerja sama dalam tim</li>
+            <li>Berpikir kritis, terstruktur, dan memiliki tanggung jawab tinggi</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Jika Anda ingin menghubungi saya, silakan isi formulir di bawah ini:</p>
+        <form action="mailto:Iduysanto@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Kirim">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Yudi Santoso. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
